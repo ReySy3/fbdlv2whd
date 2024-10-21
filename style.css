@@ -1,0 +1,86 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #808080, #00ffff); /* Blended gray and cyan */
+        }
+        h1, h3 {
+            color: transparent;
+            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); /* Rainbow gradient */
+            -webkit-background-clip: text;
+            background-clip: text;
+            font-weight: bold;
+            font-size: 2em;
+            margin: 0;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        .container {
+        border: 2px solid #007bff;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #fff;
+        box-shadow: 0 0 20px 5px rgba(255, 165, 0, 0.8); /* Glowing orange border */
+        background-image: url('your-image-url.jpg'); /* Add your photo here */
+        background-size: cover; /* Ensure the image covers the whole container */
+        background-position: center; /* Center the image */
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .result a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .result a:hover {
+            text-decoration: underline;
+        }
+        video {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .download-container {
+            border: 1px solid #007bff;
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #f9f9f9;
+        }
+        .download-link {
+            border: 1px solid #007bff;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #fff;
+        }
+   
